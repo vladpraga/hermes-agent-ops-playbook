@@ -24,6 +24,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - No-agent watchdog scripts that stay silent when healthy
 - Gateway and Telegram delivery diagnostics
 - Safe handling of logs, media artifacts, and local files
+- Server-side automation patterns for virtual servers and PostgreSQL-backed workflows
 - Obsidian-based research wiki workflows
 - Skill authoring and operational playbooks
 - Local-first, privacy-conscious automation patterns
@@ -40,9 +41,11 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/no-agent-watchdogs.md`](docs/no-agent-watchdogs.md) — deterministic watchdog pattern for scheduled checks.
 - [`docs/cron-reliability.md`](docs/cron-reliability.md) — cron hygiene for AI-agent systems.
 - [`docs/telegram-gateway-diagnostics.md`](docs/telegram-gateway-diagnostics.md) — gateway and delivery troubleshooting checklist.
+- [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
 - [`examples/cron-doctor-summary.py`](examples/cron-doctor-summary.py) — example read-only no-agent cron doctor.
+- [`ROADMAP.md`](ROADMAP.md) — near-term roadmap for docs, scripts, and checks.
 
 ## Status
 

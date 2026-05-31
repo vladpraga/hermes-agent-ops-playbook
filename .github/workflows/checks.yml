@@ -1,0 +1,20 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Compile Python examples
+        run: python -m py_compile examples/*.py
