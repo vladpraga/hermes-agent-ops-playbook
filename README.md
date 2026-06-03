@@ -1,8 +1,10 @@
 # Hermes Agent Ops Playbook
 
-Practical operational patterns for running local-first AI agent systems reliably.
+A sanitized public showcase of practical patterns for running local-first AI-agent systems reliably.
 
-This repository collects reusable notes, scripts, and playbooks for Hermes Agent-style personal automation systems: Telegram gateways, cron jobs, no-agent watchdogs, Obsidian/LLM wiki workflows, local logs, safe media delivery, and memory hygiene.
+This repository documents reusable workflows for Hermes Agent-style personal automation systems: Telegram gateways, scheduled digests, no-agent watchdogs, Obsidian/LLM research wikis, safe media delivery, memory hygiene, and public-safe operational playbooks.
+
+The examples are intentionally sanitized. They use placeholders instead of private paths, client names, chat IDs, tokens, logs, banking data, or personal context.
 
 ## Why this exists
 
@@ -18,25 +20,18 @@ Open-source AI agent frameworks are powerful, but real-world users often struggl
 
 This project focuses on the operational and maintainer layer that helps local-first agent systems run safely over time.
 
-## Focus areas
+## Showcase workflows
 
-- Reliable cron automation for AI agents
-- No-agent watchdog scripts that stay silent when healthy
-- Gateway and Telegram delivery diagnostics
-- Safe handling of logs, media artifacts, and local files
-- Server-side automation patterns for virtual servers and PostgreSQL-backed workflows
-- Obsidian-based research wiki workflows
-- Skill authoring and operational playbooks
-- Local-first, privacy-conscious automation patterns
-
-## Intended audience
-
-- open-source AI agent users
-- maintainers of local-first agent tooling
-- developers running personal automation systems
-- people building Hermes Agent / MCP / Obsidian-based workflows
+- **Telegram-first personal AI agent OS** — a messaging interface for agent work, approvals, reports, and operational alerts.
+- **Obsidian LLM research wiki** — raw sources compiled into linked Markdown concepts, entities, comparisons, and query outputs.
+- **Scheduled AI digests** — recurring reports with explicit delivery contracts and local artifacts.
+- **No-agent watchdogs** — deterministic scripts that stay silent when healthy and alert only when action is needed.
+- **Gateway diagnostics** — log-first triage for delivery, timeouts, stale sessions, and restart behavior.
+- **Public-safe showcase pattern** — how to document private automation work without leaking sensitive details.
 
 ## Contents
+
+### Docs
 
 - [`docs/no-agent-watchdogs.md`](docs/no-agent-watchdogs.md) — deterministic watchdog pattern for scheduled checks.
 - [`docs/cron-reliability.md`](docs/cron-reliability.md) — cron hygiene for AI-agent systems.
@@ -44,8 +39,21 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
+- [`docs/privacy-safe-showcase.md`](docs/privacy-safe-showcase.md) — publishing sanitized examples without leaking private context.
+- [`docs/architecture.md`](docs/architecture.md) — reference architecture for a local-first personal agent OS.
+
+### Examples
+
 - [`examples/cron-doctor-summary.py`](examples/cron-doctor-summary.py) — example read-only no-agent cron doctor.
-- [`ROADMAP.md`](ROADMAP.md) — near-term roadmap for docs, scripts, and checks.
+- [`examples/telegram-agent-workflow.md`](examples/telegram-agent-workflow.md) — example Telegram-first agent flow.
+- [`examples/llm-wiki-workflow.md`](examples/llm-wiki-workflow.md) — example Obsidian/Markdown wiki workflow.
+- [`examples/daily-ai-digest-workflow.md`](examples/daily-ai-digest-workflow.md) — example scheduled digest flow.
+
+### Templates
+
+- [`templates/research-briefing.md`](templates/research-briefing.md) — Markdown research briefing template.
+- [`templates/research-briefing.html`](templates/research-briefing.html) — self-contained visual HTML briefing template.
+- [`templates/ops-log.md`](templates/ops-log.md) — operational history note template.
 
 ## Status
 
