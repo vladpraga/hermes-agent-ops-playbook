@@ -36,6 +36,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/no-agent-watchdogs.md`](docs/no-agent-watchdogs.md) — deterministic watchdog pattern for scheduled checks.
 - [`docs/cron-reliability.md`](docs/cron-reliability.md) — cron hygiene for AI-agent systems.
 - [`docs/telegram-gateway-diagnostics.md`](docs/telegram-gateway-diagnostics.md) — gateway and delivery troubleshooting checklist.
+- [`docs/gateway-runtime-contracts.md`](docs/gateway-runtime-contracts.md) — runtime contracts for routing, delivery, renderer behavior, structured metadata, and transport modes.
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
