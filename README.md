@@ -37,6 +37,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/cron-reliability.md`](docs/cron-reliability.md) — cron hygiene for AI-agent systems.
 - [`docs/telegram-gateway-diagnostics.md`](docs/telegram-gateway-diagnostics.md) — gateway and delivery troubleshooting checklist.
 - [`docs/gateway-runtime-contracts.md`](docs/gateway-runtime-contracts.md) — runtime contracts for routing, delivery, renderer behavior, structured metadata, and transport modes.
+- [`docs/azure-openai-gpt5-transport-routing.md`](docs/azure-openai-gpt5-transport-routing.md) — explicit Chat Completions vs Responses routing for Azure OpenAI GPT-5.x agent deployments.
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
