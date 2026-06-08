@@ -25,6 +25,8 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - **Telegram-first personal AI agent OS** — a messaging interface for agent work, approvals, reports, and operational alerts.
 - **Obsidian LLM research wiki** — raw sources compiled into linked Markdown concepts, entities, comparisons, and query outputs.
 - **Scheduled AI digests** — recurring reports with explicit delivery contracts and local artifacts.
+- **Agent radar and governance loop** — watch adjacent frameworks, MCP changes, security issues, and workflow patterns without turning every trend into an install.
+- **Agentic AI production readiness** — practical governance checklist for moving agent workflows from demo to auditable production-like operation.
 - **No-agent watchdogs** — deterministic scripts that stay silent when healthy and alert only when action is needed.
 - **Gateway diagnostics** — log-first triage for delivery, timeouts, stale sessions, and restart behavior.
 - **Public-safe showcase pattern** — how to document private automation work without leaking sensitive details.
@@ -38,6 +40,8 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/telegram-gateway-diagnostics.md`](docs/telegram-gateway-diagnostics.md) — gateway and delivery troubleshooting checklist.
 - [`docs/gateway-runtime-contracts.md`](docs/gateway-runtime-contracts.md) — runtime contracts for routing, delivery, renderer behavior, structured metadata, and transport modes.
 - [`docs/azure-openai-gpt5-transport-routing.md`](docs/azure-openai-gpt5-transport-routing.md) — explicit Chat Completions vs Responses routing for Azure OpenAI GPT-5.x agent deployments.
+- [`docs/agent-radar-and-governance-loop.md`](docs/agent-radar-and-governance-loop.md) — recurring radar loop for agent-framework, MCP, security, and workflow signals.
+- [`docs/agentic-ai-production-readiness.md`](docs/agentic-ai-production-readiness.md) — vendor-neutral checklist for governed agent workflows.
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.

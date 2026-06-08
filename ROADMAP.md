@@ -9,6 +9,8 @@ This project is an early public playbook for reliable local-first AI agent opera
 - Add server-side agent operations notes for virtual servers, process supervisors, PostgreSQL-backed workflows, and remote maintenance.
 - Add lightweight GitHub Actions checks for example scripts and documentation hygiene.
 - Expand security notes around credentials, private logs, chat IDs, local files, and public examples.
+- Add agent-radar examples for watchlist updates, adjacent framework monitoring, and report hygiene.
+- Expand production-readiness material around API exposure, MCP/tool allowlists, dashboard auth, and human approval boundaries.
 
 ## Later
 
