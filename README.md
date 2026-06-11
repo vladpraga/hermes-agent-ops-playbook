@@ -29,6 +29,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - **Agentic AI production readiness** — practical governance checklist for moving agent workflows from demo to auditable production-like operation.
 - **No-agent watchdogs** — deterministic scripts that stay silent when healthy and alert only when action is needed.
 - **Gateway diagnostics** — log-first triage for delivery, timeouts, stale sessions, and restart behavior.
+- **AI platform organization operations** — access control, verification readiness, model/provider governance, usage limits, and public-safe documentation.
 - **Public-safe showcase pattern** — how to document private automation work without leaking sensitive details.
 
 ## Contents
@@ -43,6 +44,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/agent-radar-and-governance-loop.md`](docs/agent-radar-and-governance-loop.md) — recurring radar loop for agent-framework, MCP, security, and workflow signals.
 - [`docs/agentic-ai-production-readiness.md`](docs/agentic-ai-production-readiness.md) — vendor-neutral checklist for governed agent workflows.
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
+- [`docs/ai-platform-org-ops.md`](docs/ai-platform-org-ops.md) — organization-level AI platform operations checklist.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
 - [`docs/privacy-safe-showcase.md`](docs/privacy-safe-showcase.md) — publishing sanitized examples without leaking private context.
