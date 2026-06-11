@@ -7,6 +7,7 @@ This project is an early public playbook for reliable local-first AI agent opera
 - Add more no-agent watchdog examples that are silent when healthy and explicit when action is needed.
 - Add Python diagnostics for cron logs, gateway delivery, media artifact paths, and stale/broken API calls.
 - Add server-side agent operations notes for virtual servers, process supervisors, PostgreSQL-backed workflows, and remote maintenance.
+- Add AI platform organization governance notes: readiness scorecards, monthly reviews, provider/model allowlists, and verification readiness.
 - Add lightweight GitHub Actions checks for example scripts and documentation hygiene.
 - Expand security notes around credentials, private logs, chat IDs, local files, and public examples.
 - Add agent-radar examples for watchlist updates, adjacent framework monitoring, and report hygiene.

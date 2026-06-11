@@ -45,6 +45,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`docs/agentic-ai-production-readiness.md`](docs/agentic-ai-production-readiness.md) — vendor-neutral checklist for governed agent workflows.
 - [`docs/server-side-agent-ops.md`](docs/server-side-agent-ops.md) — virtual server and PostgreSQL-backed operations patterns.
 - [`docs/ai-platform-org-ops.md`](docs/ai-platform-org-ops.md) — organization-level AI platform operations checklist.
+- [`docs/ai-platform-readiness-scorecard.md`](docs/ai-platform-readiness-scorecard.md) — production-readiness scorecard for AI/API workspaces.
 - [`docs/obsidian-llm-wiki-workflows.md`](docs/obsidian-llm-wiki-workflows.md) — durable research/wiki workflow for agents.
 - [`docs/memory-hygiene.md`](docs/memory-hygiene.md) — memory routing and cleanup principles.
 - [`docs/privacy-safe-showcase.md`](docs/privacy-safe-showcase.md) — publishing sanitized examples without leaking private context.
@@ -56,6 +57,7 @@ This project focuses on the operational and maintainer layer that helps local-fi
 - [`examples/telegram-agent-workflow.md`](examples/telegram-agent-workflow.md) — example Telegram-first agent flow.
 - [`examples/llm-wiki-workflow.md`](examples/llm-wiki-workflow.md) — example Obsidian/Markdown wiki workflow.
 - [`examples/daily-ai-digest-workflow.md`](examples/daily-ai-digest-workflow.md) — example scheduled digest flow.
+- [`examples/ai-platform-monthly-review.md`](examples/ai-platform-monthly-review.md) — monthly AI platform operations review template.
 
 ### Templates
 
